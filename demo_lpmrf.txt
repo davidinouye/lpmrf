@@ -1,0 +1,620 @@
+[?1h=
+                                                                       < M A T L A B (R) >
+                                                             Copyright 1984-2014 The MathWorks, Inc.
+                                                               R2014a (8.3.0.532) 64-bit (glnxa64)
+                                                                        February 11, 2014
+
+    ----------------------------------------------------
+	Your MATLAB license will expire in 57 days.
+	Please contact your system administrator or
+	MathWorks to renew this license.
+    ----------------------------------------------------
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+
+<<<<< TrainStart: models.Multinomial():learners.MultLearner(0.0001) >>>>>
+<<<<< Train  End: models.Multinomial():learners.MultLearner(0.0001) in 0.017454 s >>>>>
+<<<<< Test Start: models.Multinomial():learners.MultLearner(0.0001) >>>>>
+<<<<< Test   End: models.Multinomial():learners.MultLearner(0.0001) in 0.024961 s >>>>>
+<<<<< Completed: models.Multinomial():learners.MultLearner(0.0001) in a total of 0.048175 s >>>>>
+Training Set Perplexity = 46.3678, Training Set Log Likelihood = -649131
+Test Set Perplexity = 47.3477, Test Set Log Likelihood = -71155.8
+
+
+
+
+<<<<< TrainStart: models.Mixture(base=?):learners.meta.MixtureLearner(base=mrfs.models.Multinomial:mrfs.learners.MultLearner(0.0001)) >>>>>
+  << Initializing Multinomial mixture with k-means (10 repetitions) >>
+    k-means rng(1): sumSquared = 348685
+    k-means rng(2): sumSquared = 348141
+    k-means rng(3): sumSquared = 348167
+    k-means rng(4): sumSquared = 348141
+    k-means rng(5): sumSquared = 348141
+    k-means rng(6): sumSquared = 348167
+    k-means rng(7): sumSquared = 348141
+    k-means rng(8): sumSquared = 348140
+    k-means rng(9): sumSquared = 348684
+    k-means rng(10): sumSquared = 348142
+  << Finished initializing Multinomial mixture with k-means >>
+
+  
+<< mrfs.learners.meta.MixtureLearner: Starting alternating iterations >>
+
+  
+<< AlternatingIteration: nChanged = 921 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 144 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 63 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 54 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 47 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 24 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 6 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 1 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 0 (threshold = 0)>>
+
+  
+<< mrfs.learners.meta.MixtureLearner: Finished alternating iterations >>
+
+<<<<< Train  End: models.Mixture(models=models.Multinomial(),models.Multinomial(),models.Multinomial()):learners.meta.MixtureLearner(base=mrfs.models.Multinomial:mrfs.learners.MultLearner(0.0001)) in 1.36445 s >>>>>
+<<<<< Test Start: models.Mixture(models=models.Multinomial(),models.Multinomial(),models.Multinomial()):learners.meta.MixtureLearner(base=mrfs.models.Multinomial:mrfs.learners.MultLearner(0.0001)) >>>>>
+<<<<< Test   End: models.Mixture(models=models.Multinomial(),models.Multinomial(),models.Multinomial()):learners.meta.MixtureLearner(base=mrfs.models.Multinomial:mrfs.learners.MultLearner(0.0001)) in 0.077838 s >>>>>
+<<<<< Completed: models.Mixture(models=models.Multinomial(),models.Multinomial(),models.Multinomial()):learners.meta.MixtureLearner(base=mrfs.models.Multinomial:mrfs.learners.MultLearner(0.0001)) in a total of 1.44496 s >>>>>
+Training Set Perplexity = 29.5734, Training Set Log Likelihood = -573039
+Test Set Perplexity = 30.2664, Test Set Log Likelihood = -62901.6
+
+
+
+
+<<<<< TrainStart: models.TopicModel(base=?):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.MultLearner(0.0001)) >>>>>
+  
+<< Using Multinomial Mixture Learner to initialize Multinomial Topic Model >>
+
+  << Initializing Multinomial mixture with k-means (10 repetitions) >>
+    k-means rng(1): sumSquared = 348685
+    k-means rng(2): sumSquared = 348141
+    k-means rng(3): sumSquared = 348167
+    k-means rng(4): sumSquared = 348141
+    k-means rng(5): sumSquared = 348141
+    k-means rng(6): sumSquared = 348167
+    k-means rng(7): sumSquared = 348141
+    k-means rng(8): sumSquared = 348140
+    k-means rng(9): sumSquared = 348684
+    k-means rng(10): sumSquared = 348142
+  << Finished initializing Multinomial mixture with k-means >>
+
+  
+<< mrfs.learners.meta.MixtureLearner: Starting alternating iterations >>
+
+  
+<< AlternatingIteration: nChanged = 921 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 144 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 63 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 54 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 47 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 24 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 6 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 1 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 0 (threshold = 0)>>
+
+  
+<< mrfs.learners.meta.MixtureLearner: Finished alternating iterations >>
+
+  
+<< Finished initializing Multinomial Topic Model >>
+
+  
+<< mrfs.learners.meta.LPMRFTopicModelLearner: Starting alternating iterations >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,0.000651951,0.07145
+  
+<< AlternatingIteration: relDiff = 0.000651951 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,0.000120024,0.063703
+  
+<< AlternatingIteration: relDiff = 0.000120024 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,5.15397e-05,0.064404
+  
+<< AlternatingIteration: relDiff = 5.15397e-05 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,4.18882e-05,0.063937
+  
+<< AlternatingIteration: relDiff = 4.18882e-05 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,1.65928e-05,0.063226
+  
+<< AlternatingIteration: relDiff = 1.65928e-05 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,1.68211e-06,0.062913
+  
+<< AlternatingIteration: relDiff = 1.68211e-06 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,3.40235e-06,0.062827
+  
+<< AlternatingIteration: relDiff = 3.40235e-06 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,1.47309e-06,0.063686
+  
+<< AlternatingIteration: relDiff = 1.47309e-06 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,1.01435e-07,0.063211
+  
+<< AlternatingIteration: relDiff = 1.01435e-07 (converge threshold = 1e-06) >>
+
+  
+<< mrfs.learners.meta.LPMRFTopicModelLearner: Finished alternating iterations >>
+
+<<<<< Train  End: models.TopicModel(models=models.LPMRF(nnz=0,nnzwords=0),models.LPMRF(nnz=0,nnzwords=0),models.LPMRF(nnz=0,nnzwords=0)):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.MultLearner(0.0001)) in 2.50852 s >>>>>
+<<<<< Test Start: models.TopicModel(models=models.LPMRF(nnz=0,nnzwords=0),models.LPMRF(nnz=0,nnzwords=0),models.LPMRF(nnz=0,nnzwords=0)):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.MultLearner(0.0001)) >>>>>
+<<<<< Test   End: models.TopicModel(models=models.LPMRF(nnz=0,nnzwords=0),models.LPMRF(nnz=0,nnzwords=0),models.LPMRF(nnz=0,nnzwords=0)):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.MultLearner(0.0001)) in 0.202988 s >>>>>
+<<<<< Completed: models.TopicModel(models=models.LPMRF(nnz=0,nnzwords=0),models.LPMRF(nnz=0,nnzwords=0),models.LPMRF(nnz=0,nnzwords=0)):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.MultLearner(0.0001)) in a total of 2.71449 s >>>>>
+Training Set Perplexity = 29.4082, Training Set Log Likelihood = -572091
+Test Set Perplexity = 30.0307, Test Set Log Likelihood = -62757.3
+
+
+
+
+<<<<< TrainStart: models.LPMRF(nnz=0,nnzwords=0):learners.PoissonRegModL(lam=0.00297635, beta=0.0001, func=NLL(c=2.0)) >>>>>
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  3501,1000,5.44275
+<<<<< Train  End: models.LPMRF(nnz=78396,nnzwords=991):learners.PoissonRegModL(lam=0.00297635, beta=0.0001, func=NLL(c=2.0)) in 5.45137 s >>>>>
+<<<<< Test Start: models.LPMRF(nnz=78396,nnzwords=991):learners.PoissonRegModL(lam=0.00297635, beta=0.0001, func=NLL(c=2.0)) >>>>>
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,78396,100,50,41.5684
+<<<<< Test   End: models.LPMRF(nnz=78396,nnzwords=991):learners.PoissonRegModL(lam=0.00297635, beta=0.0001, func=NLL(c=2.0)) in 41.758 s >>>>>
+<<<<< Completed: models.LPMRF(nnz=78396,nnzwords=991):learners.PoissonRegModL(lam=0.00297635, beta=0.0001, func=NLL(c=2.0)) in a total of 47.2128 s >>>>>
+Training Set Perplexity = 27.8408, Training Set Log Likelihood = -562824
+Test Set Perplexity = 33.8889, Test Set Log Likelihood = -64986.9
+
+
+
+
+<<<<< TrainStart: models.Mixture(base=?):learners.meta.LPMRFMixtureLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00615848,0.0001,1.25)) >>>>>
+Using MultinomiaMixtureLearnerTune to initialize arrays  << Initializing Multinomial mixture with k-means (10 repetitions) >>
+    k-means rng(1): sumSquared = 348685
+    k-means rng(2): sumSquared = 348141
+    k-means rng(3): sumSquared = 348167
+    k-means rng(4): sumSquared = 348141
+    k-means rng(5): sumSquared = 348141
+    k-means rng(6): sumSquared = 348167
+    k-means rng(7): sumSquared = 348141
+    k-means rng(8): sumSquared = 348140
+    k-means rng(9): sumSquared = 348684
+    k-means rng(10): sumSquared = 348142
+  << Finished initializing Multinomial mixture with k-means >>
+
+  
+<< mrfs.learners.meta.MixtureLearner: Starting alternating iterations >>
+
+  
+<< AlternatingIteration: nChanged = 921 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 144 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 63 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 54 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 47 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 24 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 6 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 1 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 0 (threshold = 0)>>
+
+  
+<< mrfs.learners.meta.MixtureLearner: Finished alternating iterations >>
+
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1324,1000,0.488473
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1251,1000,2.03906
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  926,1000,0.541639
+  
+<< mrfs.learners.meta.LPMRFMixtureLearner: Starting alternating iterations >>
+
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,22618,100,50,18.0389
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,54390,100,50,47.9427
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,29664,100,50,18.1033
+  
+<< AlternatingIteration: nChanged = 1 (threshold = 0)>>
+
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1323,1000,0.490147
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1252,1000,2.04558
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  926,1000,0.541679
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,22576,100,50,17.855
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,54360,100,50,48.5416
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,29664,100,50,18.438
+  
+<< AlternatingIteration: nChanged = 0 (threshold = 0)>>
+
+  
+<< mrfs.learners.meta.LPMRFMixtureLearner: Finished alternating iterations >>
+
+<<<<< Train  End: models.Mixture(models=models.LPMRF(nnz=22576,nnzwords=739),models.LPMRF(nnz=54360,nnzwords=808),models.LPMRF(nnz=29664,nnzwords=823)):learners.meta.LPMRFMixtureLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00615848,0.0001,1.25)) in 176.888 s >>>>>
+<<<<< Test Start: models.Mixture(models=models.LPMRF(nnz=22576,nnzwords=739),models.LPMRF(nnz=54360,nnzwords=808),models.LPMRF(nnz=29664,nnzwords=823)):learners.meta.LPMRFMixtureLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00615848,0.0001,1.25)) >>>>>
+<<<<< Test   End: models.Mixture(models=models.LPMRF(nnz=22576,nnzwords=739),models.LPMRF(nnz=54360,nnzwords=808),models.LPMRF(nnz=29664,nnzwords=823)):learners.meta.LPMRFMixtureLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00615848,0.0001,1.25)) in 0.398049 s >>>>>
+<<<<< Completed: models.Mixture(models=models.LPMRF(nnz=22576,nnzwords=739),models.LPMRF(nnz=54360,nnzwords=808),models.LPMRF(nnz=29664,nnzwords=823)):learners.meta.LPMRFMixtureLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00615848,0.0001,1.25)) in a total of 177.287 s >>>>>
+Training Set Perplexity = 21.883, Training Set Log Likelihood = -522084
+Test Set Perplexity = 26.4008, Test Set Log Likelihood = -60381
+
+
+
+
+<<<<< TrainStart: models.TopicModel(base=?):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00885867,0.0001,1.5)) >>>>>
+  
+<< Using Multinomial Topic Model Learner to initialize LPMRF Topic Model >>
+
+  
+<< Using Multinomial Mixture Learner to initialize Multinomial Topic Model >>
+
+  << Initializing Multinomial mixture with k-means (10 repetitions) >>
+    k-means rng(1): sumSquared = 348685
+    k-means rng(2): sumSquared = 348141
+    k-means rng(3): sumSquared = 348167
+    k-means rng(4): sumSquared = 348141
+    k-means rng(5): sumSquared = 348141
+    k-means rng(6): sumSquared = 348167
+    k-means rng(7): sumSquared = 348141
+    k-means rng(8): sumSquared = 348140
+    k-means rng(9): sumSquared = 348684
+    k-means rng(10): sumSquared = 348142
+  << Finished initializing Multinomial mixture with k-means >>
+
+  
+<< mrfs.learners.meta.MixtureLearner: Starting alternating iterations >>
+
+  
+<< AlternatingIteration: nChanged = 921 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 144 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 63 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 54 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 47 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 24 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 6 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 1 (threshold = 0)>>
+
+  
+<< AlternatingIteration: nChanged = 0 (threshold = 0)>>
+
+  
+<< mrfs.learners.meta.MixtureLearner: Finished alternating iterations >>
+
+  
+<< Finished initializing Multinomial Topic Model >>
+
+  
+<< mrfs.learners.meta.LPMRFTopicModelLearner: Starting alternating iterations >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,0.000651951,0.066254
+  
+<< AlternatingIteration: relDiff = 0.000651951 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,0.000120024,0.063377
+  
+<< AlternatingIteration: relDiff = 0.000120024 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,5.15397e-05,0.063078
+  
+<< AlternatingIteration: relDiff = 5.15397e-05 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,4.18882e-05,0.063452
+  
+<< AlternatingIteration: relDiff = 4.18882e-05 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,1.65928e-05,0.062526
+  
+<< AlternatingIteration: relDiff = 1.65928e-05 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,1.68211e-06,0.062846
+  
+<< AlternatingIteration: relDiff = 1.68211e-06 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,3.40235e-06,0.062744
+  
+<< AlternatingIteration: relDiff = 3.40235e-06 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,1.47309e-06,0.06535
+  
+<< AlternatingIteration: relDiff = 1.47309e-06 (converge threshold = 1e-06) >>
+
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,1.01435e-07,0.063218
+  
+<< AlternatingIteration: relDiff = 1.01435e-07 (converge threshold = 1e-06) >>
+
+  
+<< mrfs.learners.meta.LPMRFTopicModelLearner: Finished alternating iterations >>
+
+  
+<< Finished initializing LPMRF Topic Model >>
+
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1552,1000,0.273008
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1451,1000,1.03649
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1057,1000,0.295668
+  
+<< mrfs.learners.meta.LPMRFTopicModelLearner: Starting alternating iterations >>
+
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,10696,100,50,8.73276
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,30426,100,50,27.4144
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,15632,100,50,9.77341
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,0.000109226,0.07607
+  
+<< AlternatingIteration: relDiff = 0.000109226 (converge threshold = 1e-06) >>
+
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1543,1000,0.273346
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1443,1000,1.04246
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1048,1000,0.298369
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,10762,100,50,9.08288
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,30596,100,50,27.6456
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,15736,100,50,10.4187
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,1.67436e-05,0.075163
+  
+<< AlternatingIteration: relDiff = 1.67436e-05 (converge threshold = 1e-06) >>
+
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1543,1000,0.273539
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1437,1000,1.04207
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1048,1000,0.297112
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,10756,100,50,9.01183
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,30742,100,50,27.9676
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,15706,100,50,9.87252
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,4.15007e-06,0.074686
+  
+<< AlternatingIteration: relDiff = 4.15007e-06 (converge threshold = 1e-06) >>
+
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1543,1000,0.274676
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1436,1000,1.04218
+  -- Starting 1000 regressions in parallel (nThreads = 0; 0 means as many cores available)
+  -- Finished 1000 regressions
+  Timing: (n,p,time)
+  1049,1000,0.295425
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,10756,100,50,8.91602
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,30778,100,50,27.9663
+  -- Estimating log partition function with 5000 samples (nSamples = 100, nTest = 50)
+  -- Finished estimating log partition function and saved in cache
+  Timing: (p,nnz,nSamples,nTest,timeLogP)
+  1000,15692,100,50,9.97339
+  -- Fitting 3501 topic matrices for each instance (learnalltopicmats_mex)
+  -- Finished fitting topic matrices (learnalltopicmats_mex)
+  Timing: (n,p,k,relDiff,time)
+  3501,1000,3,9.47775e-07,0.075295
+  
+<< AlternatingIteration: relDiff = 9.47775e-07 (converge threshold = 1e-06) >>
+
+  
+<< mrfs.learners.meta.LPMRFTopicModelLearner: Finished alternating iterations >>
+
+<<<<< Train  End: models.TopicModel(models=models.LPMRF(nnz=10756,nnzwords=638),models.LPMRF(nnz=30778,nnzwords=766),models.LPMRF(nnz=15692,nnzwords=730)):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00885867,0.0001,1.5)) in 196.678 s >>>>>
+<<<<< Test Start: models.TopicModel(models=models.LPMRF(nnz=10756,nnzwords=638),models.LPMRF(nnz=30778,nnzwords=766),models.LPMRF(nnz=15692,nnzwords=730)):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00885867,0.0001,1.5)) >>>>>
+<<<<< Test   End: models.TopicModel(models=models.LPMRF(nnz=10756,nnzwords=638),models.LPMRF(nnz=30778,nnzwords=766),models.LPMRF(nnz=15692,nnzwords=730)):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00885867,0.0001,1.5)) in 0.650486 s >>>>>
+<<<<< Completed: models.TopicModel(models=models.LPMRF(nnz=10756,nnzwords=638),models.LPMRF(nnz=30778,nnzwords=766),models.LPMRF(nnz=15692,nnzwords=730)):learners.meta.LPMRFTopicModelLearner(base=mrfs.models.LPMRF:mrfs.learners.PoissonRegModL(0.00885867,0.0001,1.5)) in a total of 197.329 s >>>>>
+Training Set Perplexity = 23.3176, Training Set Log Likelihood = -532827
+Test Set Perplexity = 26.5024, Test Set Log Likelihood = -60451.9
+
+
+[?1l>
