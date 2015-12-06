@@ -1,5 +1,5 @@
-MRFS
-====
+LPMRF
+=====
 
 MATLAB and C++/MEX code that trains the Fixed-Length Poisson MRF model (LPMRF) described in the following paper:  
 
